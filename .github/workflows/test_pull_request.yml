@@ -1,5 +1,5 @@
 name: Test pull request
-on: pull_request
+on: push
 jobs:
   tox:
     timeout-minutes: 15
